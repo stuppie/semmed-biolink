@@ -13,16 +13,16 @@ normalization of sememd db to biolink model
 6. Allowed domains and ranges for each predicate were defined and edges not conforming were filtered out. (See: https://github.com/stuppie/semmed-biolink/blob/master/04-filter_biolink.ipynb)
 
 ### Result
-Start: 
-20,620,113 edges
-268,918 nodes
-3089 association types
-32 predicates
-15 node types
-
-End:
-16,658,957 edges
-254,260 nodes
-158 association types
-25 predicates
-9 node types
+Start:  
+20,620,113 edges  
+268,918 nodes  
+3089 association types  
+32 predicates  
+15 node types  
+  
+End:  
+16,658,957 edges  
+254,260 nodes  
+158 association types  
+25 predicates  
+9 node types  
