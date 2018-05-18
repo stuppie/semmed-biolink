@@ -31,8 +31,8 @@ Start:
 15 node types  
   
 End:  
-14,076,598 edges  
-229,751 nodes  
-117 association types  
-22 predicates  
+14306640 edges  
+229751 nodes  
+123 association types  
+23 predicates  
 8 node types  
