@@ -6,19 +6,23 @@ normalization of sememd db to biolink model
 
 - Run download_convert.sh to download SemMedDB and related files and convert mysql dump to csv
 - Run the ipynbs in order
+
 01-initial_data_clean.ipynb
 - Expand predicates with OR operations into individual predicates
 - Convert cuis that are entrez ids into cuis
 - Change neg props to the same prop with a negative flag
 - Make a separate nodes table
+
 02-normalize_node_types_to_biolink.ipynb
 - For each node, get the UMLS semantic type for each umls cui
 - Map umls semantic types to biolink node types (blm_to_umls_nodes.json)
 - Nodes with no matching type are removed
+
 03-filter_nodes_edges.ipynb
 - Remove edges with nodes with no umls type or label
 - Remove the following predicates: ['compared_with', 'higher_than', 'lower_than', 'different_from', 'different_than', 
 'same_as','OCCURS_IN', 'PROCESS_OF', 'DIAGNOSES', 'METHOD_OF', 'USES','AUGMENTS', 'ADMINISTERED_TO', 'COMPLICATES']
+
 04-filter_biolink
  - Filter specific domain and ranges for: CAUSES, LOCATION_OF, TREATS, PREDISPOSES, PREVENTS
  - rename 'converts_to' edge to 'derives_into'
@@ -28,6 +32,7 @@ normalization of sememd db to biolink model
  - rename 'STIMULATES' edge to 'positively_regulates'
  - rename 'INHIBITS' edge to 'negatively_regulates'
  - associated_with/related_to edges with domain: gene, range: disease; rename to gene_associated_with_condition
+
 05-xrefs
 Get xrefs from a variety of sources
 - Drugs: 
@@ -40,6 +45,7 @@ insane, I know.
 - proteins: umls has uniprot xrefs
 - biological_process_or_activity/activity_and_behavior: umls has GO
 - gene: umls has HGNC and OMIM
+
 06-neo4j
  - reformat for neo4j import
 
