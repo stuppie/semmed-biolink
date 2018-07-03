@@ -1,0 +1,95 @@
+{"gene": [
+    "Gene or Genome"
+  ],
+  "protein": [
+    "Amino Acid, Peptide, or Protein",
+    "Enzyme"
+  ],
+  "cell_component": [
+    "cell component"
+  ],
+  "biological_process_or_activity": [
+    "Molecular Function",
+    "Mental Process",
+    "Genetic Function",
+    "Cell Function",
+    "Biologic Function",
+    "Organism Function",
+    "Organ or Tissue Function"
+  ],
+  "cell": [
+    "cell"
+  ],
+  "activity_and_behavior": [
+    "Social Behavior",
+    "Activity",
+    "Individual Behavior",
+    "Behavior",
+    "Occupational Activity",
+    "Daily or Recreational Activity"
+  ],
+  "genomic_entity": [
+    "Nucleotide Sequence",
+    "Amino Acid Sequence"
+  ],
+  "anatomical_entity": [
+    "Body Space or Junction",
+    "Body Location or Region",
+    "Body Substance"
+  ],
+  "gross_anatomical_structure": [
+    "Fully Formed Anatomical Structure",
+    "Body Part, Organ, or Organ Component",
+    "Tissue",
+    "Embryonic Structure",
+    "Body System"
+  ],
+  "chemical_substance": [
+    "Hormone",
+    "Organic Chemical",
+    "Organophosphorus Compound",
+    "Chemical Viewed Functionally",
+    "Clinical Drug",
+    "Element, Ion, or Isotope",
+    "Indicator, Reagent, or Diagnostic Aid",
+    "Carbohydrate",
+    "Antibiotic",
+    "Pharmacologic Substance",
+    "Eicosanoid",
+    "Immunologic Factor",
+    "Receptor",
+    "Vitamin",
+    "Hazardous or Poisonous Substance",
+    "Neuroreactive Substance or Biogenic Amine",
+    "Biomedical or Dental Material",
+    "Chemical",
+    "Steroid",
+    "Biologically Active Substance",
+    "Chemical Viewed Structurally",
+    "Inorganic Chemical",
+    "Lipid"
+  ],
+  "disease_or_phenotypic_feature": [
+    "Congenital Abnormality",
+    "Injury or Poisoning",
+    "Mental or Behavioral Dysfunction",
+    "Anatomical Abnormality",
+    "Acquired Abnormality",
+    "Neoplastic Process",
+    "Experimental Model of Disease",
+    "Sign or Symptom",
+    "Pathologic Function",
+    "Cell or Molecular Dysfunction",
+    "Disease or Syndrome",
+    "Finding"
+  ],
+  "individual_organism": [
+    "Living Beings"
+  ],
+  "phenotypic_feature": [
+    "Laboratory or Test Result"
+  ],
+  "named_thing": [
+    "Objects"
+  ]
+}
